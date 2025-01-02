@@ -12,27 +12,27 @@ const PUZZLE_COLORS = [yellow, purple, blue, red, orange, green];
 
 const rules = [
     {
-        colors: [blue, red, blue, yellow, yellow],
+        colors: [yellow, purple, yellow, orange, red],
         matches: 0,
-        differences: 0
+        differences: 2
     },
     {
-        colors: [purple, orange, orange, orange, yellow],
-        matches: 2,
-        differences: 1
-    },
-    {
-        colors: [green, purple, blue, purple, orange],
+        colors: [purple, yellow, yellow, yellow, red],
         matches: 1,
         differences: 2
     },
     {
-        colors: [yellow, green, red, orange, orange],
+        colors: [blue, blue, blue, purple, green],
+        matches: 0,
+        differences: 3
+    },
+    {
+        colors: [green, orange, blue, orange, blue],
         matches: 3,
         differences: 0
     },
     {
-        colors: [red, purple, blue, green, purple],
+        colors: [red, yellow, green, green, purple],
         matches: 0,
         differences: 2
     }
